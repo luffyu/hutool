@@ -35,6 +35,7 @@ import cn.hutool.core.util.StrUtil;
 import cn.hutool.core.util.URLUtil;
 import cn.hutool.extra.servlet.multipart.MultipartFormData;
 import cn.hutool.extra.servlet.multipart.UploadSetting;
+import com.alibaba.fastjson.JSON;
 
 /**
  * Servlet相关工具类封装
@@ -491,6 +492,18 @@ public class ServletUtil {
 		} catch (IOException e) {
 			throw new IORuntimeException(e);
 		}
+	}
+
+	/**
+	 * 返回数据给客户端
+	 *
+	 * @param response 响应对象{@link HttpServletResponse}
+	 * @param text 返回的内容 会转化成json字符串
+	 */
+	public static void writeJSON(HttpServletResponse response, String text) {
+		final String charset = ObjectUtil.defaultIfNull(response.getCharacterEncoding(), CharsetUtil.UTF_8);
+		response.setCharacterEncoding(charset);
+		write(response,text,"application/json");
 	}
 
 	/**
