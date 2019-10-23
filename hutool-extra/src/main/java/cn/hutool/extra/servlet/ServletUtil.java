@@ -501,8 +501,7 @@ public class ServletUtil {
 	 * @param text 返回的内容 会转化成json字符串
 	 */
 	public static void writeJSON(HttpServletResponse response, String text) {
-		final String charset = ObjectUtil.defaultIfNull(response.getCharacterEncoding(), CharsetUtil.UTF_8);
-		response.setCharacterEncoding(charset);
+		response.setCharacterEncoding(CharsetUtil.UTF_8);
 		write(response,text,"application/json");
 	}
 
