@@ -194,3 +194,8 @@ Hutool欢迎任何人为Hutool添砖加瓦，贡献代码，不过作者是一�
 点击以下链接，将页面拉到最下方点击“捐赠”即可。
 
 [前往捐赠](https://gitee.com/loolly/hutool)
+
+
+## 扩展
+自定义添加了 hutool-all-coocaa的模块
+用于添加适合自己项目的工具类模块包，并且 json还是采用阿里的fastjson
