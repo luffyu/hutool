@@ -1,7 +1,7 @@
-package cn.hutool.coocaa.util.result.exception;
+package cn.hutool.luffyu.util.result.exception;
 
 
-import cn.hutool.coocaa.util.result.IResultHandle;
+import cn.hutool.luffyu.util.result.IResultHandle;
 
 /**
  * @author luffyu

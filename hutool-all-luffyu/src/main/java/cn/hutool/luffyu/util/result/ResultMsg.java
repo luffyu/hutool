@@ -1,8 +1,8 @@
-package cn.hutool.coocaa.util.result;
+package cn.hutool.luffyu.util.result;
 
 
-import cn.hutool.coocaa.util.result.code.ICodeHandle;
-import cn.hutool.coocaa.util.result.code.SysCode;
+import cn.hutool.luffyu.util.result.code.ICodeHandle;
+import cn.hutool.luffyu.util.result.code.SysCode;
 
 import java.io.Serializable;
 

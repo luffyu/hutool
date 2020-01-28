@@ -1,4 +1,4 @@
-package cn.hutool.coocaa.util.result.code;
+package cn.hutool.luffyu.util.result.code;
 
 /**
  * @author luffyu

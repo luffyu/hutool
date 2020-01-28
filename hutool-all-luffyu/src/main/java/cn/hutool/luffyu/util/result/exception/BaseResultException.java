@@ -1,10 +1,10 @@
-package cn.hutool.coocaa.util.result.exception;
+package cn.hutool.luffyu.util.result.exception;
 
 
-import cn.hutool.coocaa.util.exception.BaseException;
-import cn.hutool.coocaa.util.result.IResultHandle;
-import cn.hutool.coocaa.util.result.ResultMsg;
-import cn.hutool.coocaa.util.result.code.ICodeHandle;
+import cn.hutool.luffyu.util.exception.BaseException;
+import cn.hutool.luffyu.util.result.IResultHandle;
+import cn.hutool.luffyu.util.result.ResultMsg;
+import cn.hutool.luffyu.util.result.code.ICodeHandle;
 import cn.hutool.core.util.StrUtil;
 
 /**

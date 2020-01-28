@@ -1,4 +1,4 @@
-package cn.hutool.coocaa.util.exception;
+package cn.hutool.luffyu.util.exception;
 
 /**
  * @author luffyu

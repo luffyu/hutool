@@ -1,4 +1,4 @@
-package cn.hutool.coocaa.util.jwt;
+package cn.hutool.luffyu.util.jwt;
 
 
 import cn.hutool.core.collection.CollectionUtil;

@@ -1,8 +1,8 @@
-package cn.hutool.coocaa.util.exception;
+package cn.hutool.luffyu.util.exception;
 
 
-import cn.hutool.coocaa.util.result.code.SysCode;
-import cn.hutool.coocaa.util.result.exception.IResultException;
+import cn.hutool.luffyu.util.result.code.SysCode;
+import cn.hutool.luffyu.util.result.exception.IResultException;
 
 /**
  * @author luffyu

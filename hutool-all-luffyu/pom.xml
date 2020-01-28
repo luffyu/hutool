@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>hutool-all-coocaa</artifactId>
+    <artifactId>hutool-all-luffyu</artifactId>
 
     <dependencies>
         <!--json还是采用阿里到fastjson-->

@@ -34,7 +34,7 @@
 		<module>hutool-poi</module>
 		<module>hutool-captcha</module>
 		<module>hutool-socket</module>
-        <module>hutool-all-coocaa</module>
+        <module>hutool-all-luffyu</module>
     </modules>
 
 	<properties>
